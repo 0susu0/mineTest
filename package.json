@@ -1,0 +1,19 @@
+{
+  "name": "minetest",
+  "version": "1.0.0",
+  "description": "minetest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0susu0/mineTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0susu0/mineTest/issues"
+  },
+  "homepage": "https://github.com/0susu0/mineTest#readme"
+}
