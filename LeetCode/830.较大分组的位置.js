@@ -63,6 +63,24 @@ var largeGroupPositions = function(s) {
   return res
 };
 
+/**
+ * @param {string} s
+ * @return {number[][]}
+ */
+var largeGroupPositions1 = function(s) {
+  let res = []
+  let len = 1
+  for (let i = 0; i < s.length; i++) {
+    if (i === s.length - 1 || s[i] !== s[i + 1]) {
+        if (len >= 3) res.push([i - len + 1, i])
+        len = 1
+    } else {
+        len++
+    }
+  }
+  return res
+};
+
 // largeGroupPositions('abbxxxxzzy')
 // largeGroupPositions('abc')
 // largeGroupPositions('abcdddeeeeaabbbcd')
