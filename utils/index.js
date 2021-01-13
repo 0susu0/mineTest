@@ -11,6 +11,7 @@ function listNode (val) {
 };
 
 function createList (arr) {
+  if (!arr.length) return null
   let head = new listNode(arr.shift())
   let now = head
   while (arr.length) {
