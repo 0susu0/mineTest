@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/0susu0/mineTest/issues"
   },
-  "homepage": "https://github.com/0susu0/mineTest#readme"
+  "homepage": "https://github.com/0susu0/mineTest#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
 }
